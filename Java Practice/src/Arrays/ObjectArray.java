@@ -1,0 +1,28 @@
+package Arrays;
+
+public class ObjectArray {
+
+	public static void main(String[] args) {
+		
+		Object a[]= {100,10.5,'A',"Welcome",true};
+		
+		System.out.println("Print all:");
+		
+		for(int i=0;i<a.length;i++)
+		{
+			System.out.println(a[i]);
+		}
+		
+		//or,
+		
+		System.out.println("Print all:");
+		
+		for(Object x:a)
+		{
+			System.out.println(x);
+		}
+		
+
+	}
+
+}
